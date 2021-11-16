@@ -1,0 +1,3 @@
+set tmp=C:\temp
+set temp=%tmp%
+start "" /D "%~dp0" /max /high "%~n0.exe"
